@@ -1,4 +1,4 @@
-# A CodePen clone based on MERN stack
+# Online Code Editor
 
 1. A coding environment for Web Designers and Front-End developers.
 2. Users could register, create account, login to build, edit and delete their codes.
