@@ -1,0 +1,18 @@
+{
+  "name": "codepen-clone-main",
+  "version": "1.0.0",
+  "description": "1. A coding environment for Web Designers and Front-End developers. 2. Users could register, create account, login to build, edit and delete their codes. 3. Users could access codes of other users on the platform for reference and could make temporary changes. 4. Front-End was created using React while Back-End was developed with NodeJS, Express with database as MongoDB.     * React Material UI library was used in designing the Front-End.     * JWT (Json Web Token) was used for authentication and protecting routes.",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently  \"nodemon server/server.js\" \"npm start --prefix client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
